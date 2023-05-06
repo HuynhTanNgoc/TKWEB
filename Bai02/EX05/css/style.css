@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family:Comic Sans MS;
+    color: rgb(19, 16, 16);
+  
+}
+
+
+/* Global */
+section .container{
+    margin: 50px;
+}
+
+
+ul{
+ 
+
+}
+
+/* Header **/
+header {
+    width: 100%;
+    background-color: rgb(196, 255, 240);
+    display: inline-block;
+    border-bottom: 3px solid  rgb(202, 152, 202);
+  }
+  
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(3, 22, 19);
+    font-family:Comic Sans MS;
+
+}
+
+header li{
+   display: inline-block;
+   margin: 0 10px;
+}
+
+header #branding{
+
+}
+
+header #branding h1{
+    display: inline-block;
+    margin-left: 50px;
+    line-height: 50px;
+
+    color: rgb(3, 22, 19);
+    font-family:Comic Sans MS;
+
+}
+header nav{
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px;
+    
+}
+
+header .highlight, header .current a{
+    color: blue;
+}
+
+header a:hover{
+    background-color: greenyellow;
+    color: hotpink;
+}   
+
+footer{
+    background-color: rgb(27, 138, 230);
+    height: 60px;
+    text-align: center;/* padding-left: 500px; */
+    padding-top: 30px;
+    font-size: 18px;
+}

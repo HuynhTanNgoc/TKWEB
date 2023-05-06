@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Comic Sans MS;
+    color: rgb(19, 16, 16);
+
+  }
+
+/* Header **/
+header {
+  width: 100%;
+  background-color: rgb(196, 255, 240);
+  display: inline-block;
+  border-bottom: 3px solid  rgb(202, 152, 202);
+}
+
+footer {
+  background-color: rgb(79, 155, 218);
+  text-align: center;/* padding-left: 500px; */
+  height: 80px;
+  line-height: 80px;
+  font-size: 18px;
+} 
